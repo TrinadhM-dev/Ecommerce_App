@@ -6,12 +6,16 @@
   box-sizing: border-box;
   font-family:Arial, Helvetica, sans-serif
 }
+body{
+  background-color: aliceblue;
+}
 .navSection {
   border: 3px solid red;
   display: flex;
   justify-content: space-between;
   background-color: black;
   color: white;
+  height: 80px;
 }
 .proSection{
   display: flex;
@@ -23,4 +27,39 @@
 
 .proImage {
   width: 80%;
+}
+
+.proTitle h2 {
+ margin: 10px;
+}
+.subMenu{
+  background-color:grey;
+  color: azure;
+  height: 50px;
+}
+
+.subMenu ul li {
+ list-style: none;
+ margin: 26px;
+ margin-top: 10px;
+ 
+}
+.subMenu ul{
+  display: inline-flex;
+}
+.pageSection{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 10px;
+}
+.pageImg {
+  width: 250px;
+  height: 250px;
+}
+
+.pageImg img{
+  width:100%
+}
+.proModel{
+  font-weight: bolder;
 }
