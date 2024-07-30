@@ -19,11 +19,10 @@ import FurniturePage from "./stores/pages/FurniturePage";
 import BookPages from "./stores/pages/BookPages";
 import MenPages from "./stores/pages/MenPages";
 import MusicSpeaker from "./stores/pages/MusicSpeaker";
-
-
-
 import MobileSingle from "./singles/MobileSingle";
+import ComputerSingle from "./singles/ComputerSingle"
 import UserCart from "./stores/UserCart";
+
 const App= ()=>{
 
   return (<div>
@@ -45,6 +44,8 @@ const App= ()=>{
 
     {/* Dynamic Routing */}
     <Route path='/mobiles/:id' element={<MobileSingle />} ></Route>
+        {/*Routing For Computer Single Page */}
+        <Route path='/computers/:id' element={<ComputerSingle />} ></Route>
     
     </Routes>
    

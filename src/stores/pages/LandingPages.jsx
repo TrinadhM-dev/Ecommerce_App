@@ -4,7 +4,7 @@ import Products from "../components/Products";
 const LandingPage = ()=>{
     return(
         
-        <div>Landing Page!!
+        <div>
         <Navbar />
         <Products />
 
